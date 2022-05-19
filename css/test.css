@@ -1,0 +1,33 @@
+body
+{
+background-color:lightgray;
+}
+h1{
+font-size: 30px;
+	color: teal;
+  }
+
+.uppercase
+  {
+    text-transform: uppercase;
+  } 
+  
+  .big
+   {
+   	 font-size: 70px;
+   }
+
+   .big.uppercase
+   {
+   	 color: royalblue;
+   }
+
+   span
+   {
+   	color: olive;
+   }
+
+   h1 span
+   {
+   	color: mistyrose;
+   }
