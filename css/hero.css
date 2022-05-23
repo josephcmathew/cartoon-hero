@@ -1,5 +1,6 @@
 body{
 	margin: 0;	
+	font-family: sans-serif, arial;
 }
 
 header{
@@ -9,12 +10,38 @@ header{
 	padding-bottom: 50px;
 }
 
+h1,h2{
+
+font-family: 'Alfa Slab One', cursive;
+}
+
 header h1{
 	color: white;
+	font-size: 50px;
+
 }
 
 header img{
 	border-radius: 170px;
     width: 300px;
     border: 20px solid darkblue;
+}
+
+
+main{
+	max-width: 800px;
+	/*margin property top/bottom to 0 and auto means align left/right to centre */
+	margin: 0 auto;
+	/*padding 0 means top/bottom opx and left/right to 20px*/
+	padding: 0 20px;
+
+}
+
+main img{
+max-width: 100%;
+}
+
+h2{
+font-size: 30px;
+color: darkblue;
 }
